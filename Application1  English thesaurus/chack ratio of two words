@@ -1,0 +1,6 @@
+>>> import difflib
+>>> from difflib import SequenceMatcher
+>>> SequenceMatcher(None, "chut", "chun")
+<difflib.SequenceMatcher object at 0x7f73e29e8310>
+>>> SequenceMatcher(None, "chut", "chun").ratio()
+0.75
